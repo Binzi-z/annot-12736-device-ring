@@ -1,0 +1,19 @@
+{
+  "fraud": [
+    {
+      "rule": "burst_small_pay",
+      "account": "u9001",
+      "from": "2026-10-02T02:59:53",
+      "to": "2026-10-02T03:00:40",
+      "evidence": "12 payments in <60s from an unseen region"
+    },
+    {
+      "rule": "new_device_big_withdraw",
+      "account": "u9002",
+      "from": "2026-10-02T03:10:40",
+      "to": "2026-10-02T03:11:20",
+      "evidence": "login on a new device then a 48000 withdraw"
+    }
+  ],
+  "note": "the rest of the stream is benign"
+}
